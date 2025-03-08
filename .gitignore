@@ -5,6 +5,7 @@ out/
 cache/
 lib/
 broadcast/
+.idea/
 .vscode/
 #Cache folder
 .alcache/
