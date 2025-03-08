@@ -3,4 +3,20 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+#fork-url = "http://127.0.0.1:8545"
+
+#solc = "0.8.22"
+#ffi = true
+#ast = true
+#build_info = true
+#extra_output = ["storageLayout"]
+#[rpc_endpoints]
+##sepolia = "https://eth-sepolia.g.alchemy.com/v2/tQ6olBJhhJY0_v04kavsliE758vz_qE_1"
+#anvil = "https://127.0.0.1:8545"
+#
+#
+#[etherscan]
+#sepolia = {key = "79W8ZRU5CIBB345ZB935FFHVNT7QMBK3HG1"}
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
