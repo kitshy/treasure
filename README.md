@@ -48,7 +48,12 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$  script script/TreasureManagerScript.s.sol:TreasureManagerScript --rpc-url "https://eth-sepolia.g.alchemy.com/v2/" --private-key "" --broadcast
+```
+
+### verify
+```shell
+$  forge verify-contract 0xF9906696e0008CD3B0969226eaDE4da7Ee18721b TreasureManager --compiler-version 0.8.22
 ```
 
 ### Cast

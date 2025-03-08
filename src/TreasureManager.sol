@@ -101,7 +101,7 @@ contract TreasureManager is Initializable,AccessControlUpgradeable,ReentrancyGua
         emit WithdrawManagerUpdate(_withdrawManager);
     }
 
-    function grantReward(address tokenAddress , address granter,uint256 amount) external{
+    function grantReward(address tokenAddress , address granter,uint256 amount) external onlyTreasureManager{
         require(address(tokenAddress) !=address(0) && granter!=address(0),"invalid address");
         granterRewardAmount[granter][tokenAddress] = amount;
         emit GrantRewardTokenAmount(tokenAddress,granter,amount);
